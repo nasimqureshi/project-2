@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#parent {
+    display: flex;
+    background: red;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+#child {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
